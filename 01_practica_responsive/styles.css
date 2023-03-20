@@ -1,0 +1,239 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  box-sizing: border-box;
+  background-color: #ccc;
+}
+
+/* nav bar */
+header {
+  position: sticky;
+  top: 0;
+}
+.menu {
+  display: flex;
+  flex-direction: row;
+  background-color: cornflowerblue;
+  justify-content: end;
+  align-items: center;
+  height: 30px;
+}
+.menu ul li {
+  display: inline-block;
+  margin: 2px;
+}
+ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+  margin-right: 5px;
+}
+
+/* banner section */
+.banner img {
+  width: 100%;
+}
+
+/* cursos section */
+.cursos-section {
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+}
+.cursos-section h2 {
+  text-align: center;
+  margin-bottom: 5px;
+}
+.cursos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.curso-card {
+  width: 150px;
+  height: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 5px;
+}
+.curso-card:nth-child(1) {
+  background-color: skyblue;
+}
+.curso-card:nth-child(2) {
+  background-color: yellow;
+}
+.curso-card:nth-child(3) {
+  background-color: green;
+}
+.curso-card:nth-child(4) {
+  background-color: brown;
+}
+.curso-card:nth-child(5) {
+  background-color: gray;
+}
+.curso-card:nth-child(6) {
+  background-color: orange;
+}
+.curso-card:nth-child(7) {
+  background-color: blueviolet;
+}
+.curso-card:nth-child(8) {
+  background-color: aquamarine;
+}
+.curso-card h3 {
+  text-align: center;
+}
+
+/* aside posts */
+aside {
+  margin-top: 5px;
+  background-color: #fff;
+  padding: 8px;
+}
+aside h2 {
+  text-align: center;
+  margin-bottom: 5px;
+}
+.post {
+  margin-top: 10px;
+  padding: 10px;
+}
+.post-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.post-content img {
+  width: 200px;
+  object-fit: contain;
+}
+.post-content p {
+  display: inline-block;
+  text-align: justify;
+  font-size: 15px;
+  padding: 0 3px;
+}
+
+/* footer */
+footer {
+  background-color: cornflowerblue;
+  display: flex;
+  justify-content: space-between;
+}
+.footer-left p {
+  text-align: start;
+}
+.footer-right p {
+  text-align: end;
+}
+
+@media screen and (min-width: 768px) {
+  body {
+    background-color: red;
+  }
+}
+
+/* dise;o a partir de 1280px en adelante */
+@media screen and (min-width > 1280px & max < 359px ) {
+
+  body {
+    background-color: #ccc;
+  }
+
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  /* header */
+  header {
+    width: 100%;
+  }
+  .menu {
+    height: 50px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    background-color: darkorange;
+  }
+  li a {
+    display: inline-block;
+    margin-right: 15px;
+    cursor: pointer;
+    font-size: 20px;
+  }
+  li a:hover {
+    transform: scale(1.1);
+    color: #000;
+  }
+
+  /* banner */
+  section .banner {
+    width: 1280px;
+    margin-top: 5px;
+  }
+
+  /* main */
+  main {
+    width: 1280px;
+    margin-top: 3px;
+    display: flex;
+    flex-direction: row;
+  }
+
+  /* cursos */
+  .cursos-section {
+    padding-top: 15px;
+    display: flex;
+    width: 75%;
+    margin-right: 2px;
+    align-items: center;
+    justify-content: center;
+  }
+  .cursos {
+    margin-top: 15px;
+    width: 500px;
+    display: flex;
+  }
+  .cursos .curso-card:hover {
+    transform: scale(1.1);
+    transition: all 0.1s ease-in-out 0.1s;
+    cursor: pointer;
+  }
+
+  /* aside */
+  aside {
+    padding-top: 15px;
+    width: 25%;
+    margin-left: 5px;
+  }
+  aside .post:hover {
+    cursor: pointer;
+    background-color: cadetblue;
+  }
+
+  /* footer */
+  footer {
+    width: 1280px;
+    margin-top: 7px;
+    height: 75px;
+    display: flex;
+    align-items: center;
+  }
+
+  footer .footer-left {
+    padding-left: 10px;
+    font-weight: bold;
+    font-size: 16px;
+  }
+  footer .footer-right {
+    padding-right: 10px;
+    font-weight: bold;
+    font-size: 16px;
+  }
+}

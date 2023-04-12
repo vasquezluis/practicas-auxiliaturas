@@ -1,0 +1,11 @@
+# 1 => instalar react con Vitejs
+# 1.1 => seleccionar como framework React + SWC
+
+# 2 => instalar dependencias de React
+npm i 
+
+# 3 => instalar linter => Standard
+npm i standard -D
+
+# 4 => instalar tailwind
+ir a la pagina de Tailwind y seguir las instrucciones para Vitejs

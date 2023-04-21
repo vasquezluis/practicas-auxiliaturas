@@ -1,0 +1,13 @@
+ul {
+  list-style-type: none;
+}
+
+.active {
+  color: red;
+  font-weight: bold;
+}
+
+.notActive {
+  color: blue;
+  font-weight: bold;
+}

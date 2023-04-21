@@ -1,10 +1,11 @@
-import "./NavBar.css"
+import "./NavBar.css";
 import { NavLink } from "react-router-dom";
 
 function NavBar() {
   return (
-    <div>
-      <ul>
+    <div className="navbar">
+      <div className="navbar-brand">Mi sitio web</div>
+      <ul className="navbar-links">
         <li>
           {/* NavLink es la alternativa a '<a></a>' de React */}
           {/* NavLink puede recibir una funcion con 'isActive como parametro' */}
@@ -12,7 +13,7 @@ function NavBar() {
           {/* Se usa el operador ternario para aplicar la clase active o notActive */}
           {/* La clase 'active' y 'notActive' estan declaradas en ./NavBar.css */}
           <NavLink
-            className={({ isActive }) => (isActive ? "active" : "notActive")}
+            className={({ isActive }) => (isActive ? "active navbar-link" : "notActive navbar-link")}
             to="/"
           >
             Inicio
@@ -20,7 +21,7 @@ function NavBar() {
         </li>
         <li>
           <NavLink
-            className={({ isActive }) => (isActive ? "active" : "notActive")}
+            className={({ isActive }) => (isActive ? "active navbar-link" : "notActive navbar-link")}
             to="/contador"
           >
             Contador
@@ -28,7 +29,7 @@ function NavBar() {
         </li>
         <li>
           <NavLink
-            className={({ isActive }) => (isActive ? "active" : "notActive")}
+            className={({ isActive }) => (isActive ? "active navbar-link" : "notActive navbar-link")}
             to="/saludar"
           >
             Saludar

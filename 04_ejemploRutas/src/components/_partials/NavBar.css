@@ -1,13 +1,48 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #333;
+  padding: 10px;
+}
+
+/* Navbar logo */
+.navbar-brand {
+  font-size: 24px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+/* Navbar links */
+.navbar-links {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* Navbar link */
+.navbar-link {
+  margin-left: 10px;
+  text-decoration: none;
+  color: #fff;
+}
+
+/* Navbar link hover */
+.navbar-link:hover {
+  color: white;
+}
+
 ul {
   list-style-type: none;
 }
 
 .active {
-  color: red;
+  color: white;
   font-weight: bold;
 }
 
 .notActive {
-  color: blue;
+  color: gray;
   font-weight: bold;
 }

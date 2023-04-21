@@ -6,6 +6,11 @@ function NavBar() {
     <div>
       <ul>
         <li>
+          {/* NavLink es la alternativa a '<a></a>' de React */}
+          {/* NavLink puede recibir una funcion con 'isActive como parametro' */}
+          {/* Usamos 'isActive' para saber si el usuario hizo click en el link */}
+          {/* Se usa el operador ternario para aplicar la clase active o notActive */}
+          {/* La clase 'active' y 'notActive' estan declaradas en ./NavBar.css */}
           <NavLink
             className={({ isActive }) => (isActive ? "active" : "notActive")}
             to="/"

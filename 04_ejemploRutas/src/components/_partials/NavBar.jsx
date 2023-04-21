@@ -3,11 +3,12 @@ import { NavLink } from "react-router-dom";
 
 function NavBar() {
   return (
-    <div>
-      <ul>
+    <div className="navbar">
+      <div className="navbar-brand">Mi sitio web</div>
+      <ul className="navbar-links">
         <li>
           <NavLink
-            className={({ isActive }) => (isActive ? "active" : "notActive")}
+            className={({ isActive }) => (isActive ? "active navbar-link" : "notActive navbar-link")}
             to="/"
           >
             Inicio
@@ -15,7 +16,7 @@ function NavBar() {
         </li>
         <li>
           <NavLink
-            className={({ isActive }) => (isActive ? "active" : "notActive")}
+            className={({ isActive }) => (isActive ? "active navbar-link" : "notActive navbar-link")}
             to="/contador"
           >
             Contador
@@ -23,7 +24,7 @@ function NavBar() {
         </li>
         <li>
           <NavLink
-            className={({ isActive }) => (isActive ? "active" : "notActive")}
+            className={({ isActive }) => (isActive ? "active navbar-link" : "notActive navbar-link")}
             to="/saludar"
           >
             Saludar

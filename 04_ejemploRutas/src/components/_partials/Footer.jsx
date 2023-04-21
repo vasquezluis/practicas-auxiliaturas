@@ -1,6 +1,8 @@
+import './Footer.css'
+
 function Footer() {
   return (
-    <div>Footer</div>
+  <footer className='footer'>&copy; 2023 mi pagina</footer>
   )
 }
 

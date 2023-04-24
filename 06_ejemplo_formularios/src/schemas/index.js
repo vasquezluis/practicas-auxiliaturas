@@ -3,6 +3,9 @@ import * as yup from "yup";
 // min 5 caracteres, 1 letra mayus 1 letra minus, 1 numero
 const passwordRules = /^(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{5,}$/;
 
+// el schema ayuda a validar los datos del formulario
+// el modulo para validar se llama yup
+// se pude usar regex para validar campos mas complejos, como el de validar que los campos de contraseña coincidan
 export const schema = yup.object().shape({
   email: yup
     .string()

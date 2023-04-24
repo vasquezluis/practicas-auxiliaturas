@@ -12,3 +12,5 @@ git checkout <nombre_de_rama>
 
 -> git checkout comments
 -> git checkout main
+
+# DISCORD -> LuisVasquez#1859

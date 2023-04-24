@@ -1,0 +1,16 @@
+# -> comandos para cambiar de rama (GIT)
+
+# asegurarnos de obtener todos los archivos actualizados de github
+git fetch
+git pull
+
+# listar las ramas disponibles
+git branch
+
+# cambiar de rama
+git checkout <nombre_de_rama>
+
+-> git checkout comments
+-> git checkout main
+
+# DISCORD -> LuisVasquez#1859

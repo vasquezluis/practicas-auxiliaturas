@@ -1,0 +1,21 @@
+@layer {
+  .main {
+    @apply w-full h-screen bg-gray-200 flex flex-col justify-center items-center;
+  }
+
+  .section_1 {
+    @apply w-1/2 h-full bg-green-500 flex justify-center items-center;
+  }
+
+  .title-h1 {
+    @apply text-4xl text-black font-bold;
+  }
+
+  .card {
+    @apply bg-slate-700 flex flex-col justify-center items-center rounded-lg p-2;
+  }
+
+  .card-title {
+    @apply text-2xl text-white font-bold;
+  }
+}

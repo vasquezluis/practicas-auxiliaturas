@@ -3,15 +3,19 @@ import { useParams } from 'react-router-dom'
 import { useState, useEffect } from 'react'
 
 const Product = () => {
+  // estado para guardar el producto
   const [product, setProduct] = useState({})
+  // id que recuperamos desde el parametro de la ruta
   const { id } = useParams()
 
+  // efecto para buscar el producto en la base de datos de productos
   useEffect(() => {
     const product = products.find((prod) => prod.id === parseInt(id))
 
     setProduct(product)
   }, [])
 
+  // imprimir el producto
   return (
     <div className='w-full h-screen flex justify-center items-center bg-slate-200'>
       <div className='bg-white rounded-lg p-3'>

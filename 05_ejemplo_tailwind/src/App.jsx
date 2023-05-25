@@ -13,7 +13,7 @@ function App() {
 
       <main className="w-screen h-full bg-white dark:bg-slate-900 pt-5">
         <div className="flex flex-col text-center">
-          <h1 className="block text-2xl font-bold dark:text-white">Listado de productos</h1>
+          <h1 className="block text-2xl font-bold dark:text-red-500">Listado de productos</h1>
           <p className="block text-xl dark:text-white">Productos que manejamos</p>
         </div>
 

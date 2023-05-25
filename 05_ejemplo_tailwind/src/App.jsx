@@ -20,12 +20,17 @@ function App() {
       {/* ej. bg-white dark:bg-slate-700 */}
       <main className="w-screen h-full bg-white dark:bg-slate-900 pt-5">
         <div className="flex flex-col text-center">
+<<<<<<< HEAD
           <h1 className="block text-2xl font-bold dark:text-white">
             Listado de productos
           </h1>
           <p className="block text-xl dark:text-white">
             Productos que manejamos
           </p>
+=======
+          <h1 className="block text-2xl font-bold dark:text-red-500">Listado de productos</h1>
+          <p className="block text-xl dark:text-white">Productos que manejamos</p>
+>>>>>>> main
         </div>
 
         {/* Los estilos en tailwind son los mismos que en css, pero resumidos */}

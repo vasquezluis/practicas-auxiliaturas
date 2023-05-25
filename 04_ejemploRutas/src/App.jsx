@@ -36,7 +36,9 @@ function App() {
 
         {/* cualquier otra URL que no coincida con las anteriores va a imprimir un 'Not Found' */}
         <Route path="*" element={<p>Not Found</p>} />
+
       </Routes>
+ 
 
       {/* footer que se muestra en todas las paginas */}
       <Footer />

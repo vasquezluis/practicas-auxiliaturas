@@ -1,0 +1,28 @@
+#### -> crear carpeta para testing y ubicarse en la carpeta por medio del cmd
+
+#### -> iniciar package.json
+ npm init --y
+
+#### -> instalar playwright
+ npm i playwright@latest
+
+#### -> instalar dependencias de testing
+ npm init playwright@latest
+
+#### -> elejir tecnologia
+ javascript
+
+#### -> elejir ruta de testing end-to-end
+ (default tests)
+
+#### -> a;adir github actions si se necesita
+ (No en este ejemplo)
+
+#### -> instalar navegadores para testing
+  (si en este ejemplo)
+
+#### -> correr tests
+ npx playwright test
+
+#### -> corrrer test en modo visual
+ npx playwright show-report

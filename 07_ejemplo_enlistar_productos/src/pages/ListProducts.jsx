@@ -30,9 +30,9 @@ const ListProducts = () => {
           >
             <div className='card-body'>
               <h5 className='card-title'>Producto: {prod.name}</h5>
-              <p className='card-text'>Descripcion: {prod.description}</p>
-              <p className='card-text'>Precio: {prod.price}</p>
-              <p className='card-text'>Stock: {prod.stock}</p>
+              <p className='card-text text-white'>Descripcion: {prod.description}</p>
+              <p className='card-text text-white'>Precio: {prod.price}</p>
+              <p className='card-text text-white'>Stock: {prod.stock}</p>
             </div>
           </div>
         ))}

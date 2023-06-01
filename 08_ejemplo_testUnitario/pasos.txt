@@ -9,10 +9,10 @@
 #### -> instalar dependencias de testing
  npm init playwright@latest
 
-#### -> elejir tecnologia
+#### -> elegir tecnologia
  javascript
 
-#### -> elejir ruta de testing end-to-end
+#### -> elegir ruta de testing end-to-end
  (default tests)
 
 #### -> a;adir github actions si se necesita

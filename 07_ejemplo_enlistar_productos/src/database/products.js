@@ -9,5 +9,6 @@ export const products = [
   { id: 8, name: 'Silla Gaming Razer', description: 'Descripcion del producto', price: 1000, stock: 10 },
   { id: 9, name: 'Mouse Logitech', description: 'Descripcion del producto', price: 1000, stock: 10 },
   { id: 10, name: 'Audifonos Logitech', description: 'Descripcion del producto', price: 1000, stock: 10 },
-  { id: 11, name: 'Alfombra Razer', description: 'Descripcion del producto', price: 1000, stock: 10 }
+  { id: 11, name: 'Alfombra Razer', description: 'Descripcion del producto', price: 1000, stock: 10 },
+  { id: 11, name: 'Alfombra azul', description: 'Descripcion del producto', price: 1000, stock: 10 }
 ]

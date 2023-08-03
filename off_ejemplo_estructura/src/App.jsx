@@ -1,5 +1,6 @@
 import './App.css'
 import Preguntas from './components/Preguntas'
+import Carousel from 'react-multi-carousel'
 // import { useState } from 'react'
 
 // import Main from './components/Main'
@@ -15,6 +16,7 @@ function App () {
     <div className='flex h-screen max-h-screen py-2 sm:py-5 px-1 sm:px-28 bg-gray-200'>
 
       <Preguntas />
+      <Carousel />
     </div>
   )
 }
